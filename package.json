@@ -1,0 +1,35 @@
+{
+	"name": "blogger",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "https://github.com/LordUche/blogger.git",
+	"author": "Uchenna A. Iheanacho <uchenna.a.i@gmail.com>",
+	"license": "MIT",
+	"scripts": {
+		"start": "nodemon --exec babel-node server/index.js",
+		"lint-init": "eslint --init"
+	},
+	"dependencies": {
+		"@babel/cli": "7.5.5",
+		"@babel/core": "7.5.5",
+		"@babel/node": "7.5.5",
+		"@babel/preset-env": "7.5.5",
+		"@babel/register": "7.5.5",
+		"bcrypt": "3.0.6",
+		"body-parser": "^1.19.0",
+		"cors": "^2.8.5",
+		"dotenv": "^8.0.0",
+		"express": "4.17.1",
+		"jsonwebtoken": "8.5.1",
+		"pg": "7.11.0",
+		"pg-hstore": "2.3.3",
+		"sequelize": "5.10.1",
+		"yup": "0.27.0"
+	},
+	"devDependencies": {
+		"@babel/plugin-proposal-class-properties": "7.5.5",
+		"babel-eslint": "10.0.2",
+		"eslint": "5.3.0",
+		"nodemon": "1.19.1"
+	}
+}
