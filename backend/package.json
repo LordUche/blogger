@@ -6,7 +6,7 @@
 	"author": "Uchenna A. Iheanacho <uchenna.a.i@gmail.com>",
 	"license": "MIT",
 	"scripts": {
-		"start": "nodemon --exec babel-node server/index.js",
+		"start": "nodemon --exec babel-node src/index.js",
 		"lint-init": "eslint --init"
 	},
 	"dependencies": {
